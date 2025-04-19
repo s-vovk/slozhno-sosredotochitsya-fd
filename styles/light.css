@@ -20,3 +20,22 @@
 .theme-light .light-bulb {
   display: none;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-text-color: #353430;
+    --h1-text-color: #ffc2e6;
+    --h2-text-color: #353430;
+    --h3-text-color: #353430;
+    --accent-color: #ff8dcb;
+    --bg-color: #fff1f7;
+  }
+
+  .theme-auto .page {
+    background-image: url("../images/cover-image-light.png");
+  }
+
+  .theme-auto .light-bulb {
+    display: none;
+  }
+}
