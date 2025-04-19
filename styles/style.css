@@ -6,7 +6,7 @@
   font-size: var(--main-text-size);
   font-weight: 400;
   line-height: 23.4px;
-  background-color: (--bg-color);
+  background-color: var(--bg-color);
   background-image: url("../images/cover-image-dark.png");
   background-position: center;
   background-size: auto 100%;
@@ -41,7 +41,7 @@
   vertical-align: baseline;
   background-color: var(--h2-text-color);
   border-radius: 50%;
-  box-shadow: 0 0 4px 2px var(--accent-color);
+  box-shadow: 0 0 4px 2px var(--h2-text-color);
 }
 
 .decorated-zone {
@@ -129,13 +129,7 @@
   justify-self: start;
 }
 
-.heading {
-  font-size: var(--main-text-size);
-  font-weight: 700;
-}
-
 .header__annotation {
-  color: var(--h2-text-color);
   justify-self: end;
 }
 
@@ -183,11 +177,24 @@ a:focus {
 }
 
 .content__section-title {
+  color: var(--h2-text-color);
+  margin-block-end: 20px;
+}
+
+.content__text-block-title {
+  color: var(--h3-text-color);
   margin-block-end: 20px;
 }
 
 .content__paragraph-title {
+  color: var(--h3-text-color);
+  font-weight: 400;
   margin-block-end: 10px;
+}
+
+.heading {
+  font-size: var(--main-text-size);
+  font-weight: 700;
 }
 
 .content__text-block .content__paragraph:not(:last-child) {
