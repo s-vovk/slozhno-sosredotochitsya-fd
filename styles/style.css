@@ -314,9 +314,6 @@ a:focus {
   .content__section-even .content__text-block {
     grid-row: 2 / span 1;
     grid-column: 1 / span 3;
-  }
-
-  .content__section-even .content__text-block {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: var(--padding);
