@@ -11,6 +11,7 @@
   --h3-text-color: #353430;
   --accent-color: #ff8dcb;
   --bg-color: #fff1f7;
+  --border-hover-color: rgba(50, 49, 45, 0.4);
 }
 
 .theme-light .page {
@@ -29,13 +30,14 @@
     --h3-text-color: #353430;
     --accent-color: #ff8dcb;
     --bg-color: #fff1f7;
+    --border-hover-color: rgba(50, 49, 45, 0.4);
   }
 
-  .theme-auto .page {
+  .page {
     background-image: url("../images/cover-image-light.png");
   }
 
-  .theme-auto .light-bulb {
+  .light-bulb {
     display: none;
   }
 }

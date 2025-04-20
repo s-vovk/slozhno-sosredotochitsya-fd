@@ -11,8 +11,13 @@
   --h3-text-color: #000028;
   --accent-color: #ff0070;
   --bg-color: #000028;
+  --border-hover-color: rgba(255, 0, 112, 0.4);
 }
 
 .theme-dark .page {
   background-image: url("../images/cover-image-dark.png");
+}
+
+.theme-dark .light-bulb {
+  display: flex;
 }
